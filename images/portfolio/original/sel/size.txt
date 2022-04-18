@@ -1,0 +1,11 @@
+
+original dummy pic size =   700 x 466
+
+if width is 1631 then height = 1086
+
+1631 x 1086
+
+
+if height is 728 then width = 1094
+1094 x 728
+
