@@ -1,0 +1,75 @@
+/* default color: #F06807 */
+#mainmenu li li a:hover,
+.blog-list .date,
+#filters a.selected,
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus,
+.feature-box-small-icon .border,
+.small-border,
+#jpreBar,
+.de-gallery .overlay .icon i,
+.team-list .small-border,
+.de-team-list .small-border,
+.btn-border:hover,a.btn-border:hover,
+.btn-border.hover,a.btn-border.hover,
+#contact_form input[type=submit]:hover,
+.owl-arrow span,
+.de-progress .progress-bar,
+#btn-close-x:hover,
+.box-fx .info,
+span.overlay
+{
+	background-color:#F06807;
+}
+
+a,
+#mainmenu li:hover > ul,
+.id-color,
+.title span,
+address span i,
+#mainmenu a:hover,
+
+header.smaller #mainmenu a:hover,
+.dark .feature-box-small-icon i,
+.feature-box-small-icon i,
+a.btn-border:after,
+.de_count,
+.de_testi blockquote:before,
+.dark .btn-border:hover:after, .dark a.btn-border:hover:after, .dark a.btn-border.hover:after
+{
+	color:#F06807;
+}
+
+
+#filters a:hover,
+#filters a.selected,
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.btn-border:hover,a.btn-border:hover,
+.btn-border.hover,a.btn-border.hover
+{
+
+	border-color:#F06807;
+}
+
+.box-fx .inner,
+.dark .box-fx .inner{
+	border-bottom-color:#F06807;
+}
+
+.de_tab .de_nav li span {
+border-top: 3px solid #F06807;
+}
+
+.de_review li.active img{
+	border:solid 4px #F06807;
+}
+

@@ -1,0 +1,76 @@
+@font-face {font-family: "et-line";
+  src: url("et-line.eot"); /* IE9*/
+  src: url("et-line.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("et-line.woff2") format("woff2"), /* chrome、firefox */
+  url("et-line.woff") format("woff"), /* chrome、firefox */
+  url("et-line.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("et-line.svg#et-line") format("svg"); /* iOS 4.1- */
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-mobile, .icon-documents, .icon-browser, .icon-megaphone, .icon-trophy, .icon-paintbrush, .icon-magnifying-glass, .icon-strategy, .icon-wine, .icon-hotairballoon, .icon-genius, .icon-heart, .icon-piechart, .icon-global, .icon-alarmclock {
+	font-family: 'et-line';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	display:inline-block;
+}
+.icon-mobile:before {
+	content: "\e000";
+}
+.icon-documents:before {
+	content: "\e006";
+}
+.icon-browser:before {
+	content: "\e00c";
+}
+.icon-megaphone:before {
+	content: "\e021";
+}
+.icon-trophy:before {
+	content: "\e023";
+}
+.icon-paintbrush:before {
+	content: "\e036";
+}
+.icon-magnifying-glass:before {
+	content: "\e037";
+}
+.icon-strategy:before {
+	content: "\e03b";
+}
+.icon-wine:before {
+	content: "\e043";
+}
+.icon-hotairballoon:before {
+	content: "\e044";
+}
+.icon-genius:before {
+	content: "\e046";
+}
+.icon-heart:before {
+	content: "\e04a";
+}
+.icon-piechart:before {
+	content: "\e050";
+}
+.icon-global:before {
+	content: "\e052";
+}
+.icon-alarmclock:before {
+	content: "\e059";
+}

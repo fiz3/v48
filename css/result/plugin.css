@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ================================================== */
+/* isotope */
+/* ================================================== */
+.isotope,
+.isotope .isotope-item {
+/* change duration value to whatever you like */
+-webkit-transition-duration: 0.8s;
+-moz-transition-duration: 0.8s;
+-ms-transition-duration: 0.8s;
+-o-transition-duration: 0.8s;
+transition-duration: 0.8s;
+}
+
+.isotope {
+-webkit-transition-property: height, width;
+-moz-transition-property: height, width;
+-ms-transition-property: height, width;
+-o-transition-property: height, width;
+transition-property: height, width;
+}
+
+.isotope .isotope-item {
+-webkit-transition-property: -webkit-transform, opacity;
+-moz-transition-property: -moz-transform, opacity;
+-ms-transition-property: -ms-transform, opacity;
+-o-transition-property: -o-transform, opacity;
+transition-property: transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+-webkit-transition-duration: 0s;
+-moz-transition-duration: 0s;
+-ms-transition-duration: 0s;
+-o-transition-duration: 0s;
+transition-duration: 0s;
+}
+
+#filters {
+font-size:12px;
+letter-spacing:1px;
+padding: 0;
+margin: 0;
+margin-bottom: 20px;
+font-weight:400;
+}
+
+#filters li {
+display: inline-block;
+margin-right: 5px;
+margin-bottom: 20px;
+}
+
+#filters a {
+outline:none;
+padding: 10px 20px 8px 20px;
+color: #888;
+font-size:11px;
+text-decoration: none;
+text-transform:uppercase;
+background:#eee;
+border:none !important;
+}
+
+.dark #filters a {
+color:#888;
+border: solid 1px #555;
+}
+
+#filters a:hover {
+	background:#ddd;
+}
+
+#filters a.selected {
+color: #FFF;
+}
+
+.isotope-item {
+z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+pointer-events: none;
+z-index: 1;
+}
+
+
+
+
+
+/* -------------------------------------------------- */
+/* flex slider */
+/* -------------------------------------------------- */
+.flexslider {
+width: 100%;
+background: none;
+border: none;
+box-shadow: none;
+margin: 0px;
+}
+
+.logo-carousel li img {
+width: auto !important;
+}
+
+
+/* flex slider - testi slider */
+/* Control Nav */
+
+
+
+
+/* ================================================== */
+/* jquery totop */
+/* ================================================== */
+#toTop {
+z-index: 1555;
+display: none;
+text-decoration: none;
+position: fixed;
+bottom: 10px;
+right: 10px;
+overflow: hidden;
+width: 51px;
+height: 51px;
+border: none;
+text-indent: -999px;
+background: url(../images/ui.totop.png) no-repeat left top;
+}
+#toTopHover {
+background: url(../images/ui.totop.png) no-repeat left -51px;
+width: 51px;
+height: 51px;
+display: block;
+overflow: hidden;
+float: left;
+}
+#toTop:active, #toTop:focus {
+outline: none;
+}
+
+.dark .owl-theme .owl-controls .owl-page span{
+	background:#fff !important;
+	margin-top:30px;
+	width:8px;
+	height:8px;
+}
